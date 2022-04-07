@@ -1,0 +1,21 @@
+This is small notes from course to go when coding on this project
+
+          <FlatList
+            data={state}
+            keyExtractor={(item) => item._id}
+            renderItem={({ item }) => {
+              return (
+                <TouchableOpacity>
+                  <ListItem>
+                    <ListItem.Content>
+                      <ListItem.Title>{item.name}</ListItem.Title>
+                    </ListItem.Content>
+                    <ListItem.Chevron />
+                  </ListItem>
+                </TouchableOpacity>
+              );
+            }}
+          />
+
+
+https://reactnativeelements.com/docs/listitem/

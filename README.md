@@ -1,0 +1,2 @@
+# tracks
+react-native application that records users step when they want to record and stop whenever they want to stop recording and store it in mongodb using an Express.JS application as backend server (different project). It will store the locations for later use on displaying different location tracks for user to see. This application also has a user Authentication using a JWT to be able to access the backend. 

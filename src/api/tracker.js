@@ -5,7 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'; //npm inst
 //using ngrok to expose my server port, (change this every 8 hours due to ngrok), first check if ngrok is installed by running 'ngrok', if no, 'npm install -g ngrok'
 //to expose a port from localhost run 'ngrok http 3000' 'ngrok http <port_number>
 const instance = axios.create({
-    baseURL: 'http://55be-66-74-194-34.ngrok.io'
+    baseURL: 'YOUR_API_URL'
 });
 
 /**
